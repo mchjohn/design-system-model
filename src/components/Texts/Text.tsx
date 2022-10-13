@@ -6,9 +6,10 @@ export interface TextProps {
   size?: 'sm' | 'md' | 'lg';
   children: ReactNode;
   asChild?: boolean;
+  className?: string;
 }
 
-export const Text = ({ size, children, asChild }: TextProps) => {
+export const Text = ({ size, children, asChild, className }: TextProps) => {
   const Tag = asChild ? Slot : 'span';
 
   return (
