@@ -1,1 +1,1 @@
-# design-system-model
+https://mchjohn.github.io/design-system-model/
